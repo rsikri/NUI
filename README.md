@@ -23,8 +23,11 @@ Since, I made the project in Python it doesn’t need any makefile to build the 
 
 It works without .py as I have created a local alias, to make it run in the same format we have to make a alias using the given below code: 
 
+```
 Richas-MacBook-Pro:~ richasikri$ echo "alias pdollar='/Users/richasikri/Downloads/dollarpy/pdollar.py'" 
+
 Richas-MacBook-Pro:~ richasikri$ source ~/.bash_profile
+```
 
 If not making a local alias we can run using the following commands:
 ./pdollar.py
